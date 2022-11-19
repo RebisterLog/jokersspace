@@ -1,0 +1,73 @@
+#Body{
+    background-image: url("./Images/JokersBackground.png");
+}
+
+#LogoImg{
+    display: block;
+    block-size: 50%;
+    width: 95%;
+    height: auto;
+}
+
+#Navigation{
+    display: block;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    margin-top: auto;
+    block-size: 800px;
+    background-color: rgba(54, 54, 54, 0.548);
+    position:fixed;
+    text-align: left;
+}
+
+@font-face {
+    font-family: 'Console'; /*a name to be used later*/
+    src: url('./Fonts/Pixon.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Text'; /*a name to be used later*/
+    src: url('./Fonts/SYNNovaVFGX.ttf'); /*URL to font*/
+}
+
+#NavText{
+    font-family: 'Console';
+    font-size:30px;
+}
+
+.link:link           { color: #0c0 }  /* unvisited links       */
+.link:visited        { color: #0c0 }  /* visited links         */
+.link:link:hover, a:focus { color: #0c0 }  /* user hovers, or focus */
+#Phrase{
+    
+    display:block;
+    block-size: auto;
+    
+    position:static;
+    font-family: 'Console';
+    color: aliceblue;
+    font-size: 60px;
+    
+    text-align: center;
+    
+}
+
+#Info{
+    block-size: auto;
+    position: static;
+    margin-block: auto;
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Text';
+    font-size: 20px;
+}
+#Bulb{
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    transform: rotate(180deg);
+}
+#BulbButton{
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
